@@ -1,0 +1,240 @@
+/*=====================================
+hero section
+=======================================*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#hero-section{
+    background-image: url(images/Burger-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero-section::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: -177px;
+    left: 0;
+    background-color: rgba(0,0,0, .6);
+}
+
+header{
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 30px;
+    margin-bottom: 190px;
+}
+
+header .logo{
+    float: left;
+    width: 25%;
+}
+
+header .logo h2{
+    font-size: 45px;
+    line-height: 0;
+    color: #fbaf32;
+    font-weight: 700;
+}
+
+header .logo h2 span{
+    color: #719a0a ;
+}
+
+header .nav{
+    float: right;
+    width: 75%;
+    text-align: right;
+}
+
+header .nav ul li{
+    display: inline-block; 
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px; 
+}
+
+header .nav ul li:last-child a{
+    margin-right: 0;
+} 
+
+.best-quality{
+    position: relative;
+    z-index: 1 ;
+    text-align: center;
+    padding-bottom: 235px ;
+}
+
+.best-quality h1{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: #fff;
+    color: #fff;
+}
+
+.best-quality h1 span{
+    color: #fbaf32;
+}
+
+.best-quality p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.best-quality a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fbaf32;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px ;
+    border: 1px solid #fbaf32;
+}
+
+.best-quality a:last-child{
+    margin-right: 0;
+    background-color: #719a0a;
+    border: 1px solid #719a0a; 
+}
+
+.best-quality a:hover{
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+
+.active{
+    color: #fbaf32 !important;
+}
+
+/*=====================================
+table section
+=======================================*/
+#table-section{
+    background-color: rgb(254, 252, 252);
+    margin-top: -19px;
+    display: flex;
+}
+
+#table-section .book-a-table h3{
+    color: #719a0a;
+}
+
+#table-section .book-a-table h1{
+    color: black;
+    font-size: 40px;
+}
+
+#table-section .book-a-table{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.book-a-table{
+    width: 60%;
+    float: left;
+}
+
+.table{
+    width: 30%;
+    float: right;
+    background-color: #fbaf32;
+    text-align: center;
+}
+
+.table input{
+    width: 80%;
+    height: 8%;
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.table input:first-child{
+    margin-top: 70px;
+}
+
+.table a{
+    text-decoration: none;
+    color: #fbaf32;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px ;
+    border: 1px solid #201e1b;
+    border: none;
+    margin-top: 30px;
+}
+
+.table a:hover{
+    text-decoration: none;
+    color: #0a0a09;
+    background-color: #fbaf32;
+    transition-duration: 0.5s;
+}
+
+#about-section{
+    display: flex;
+    padding-top: 60px;
+}
+
+.about-video img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.play-btn img{
+    margin-top: -600px;
+}
+
+
+.full{
+    width: 40%;
+    padding-left: 50px;
+}
+
+.about-text{
+    width: 60%;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 5%;
+    padding-top: 90px;
+}
+
+.about-text h3{
+    color: #719a0a;
+}
+
+.about-text h1{
+    color: #0a0a09;
+    font-size: 50px;
+}
+
+.about-text p{
+    color: #0a0a09;
+    font-size: 17px;
+}
