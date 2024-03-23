@@ -1,0 +1,98 @@
+/*=====================================
+mobile layout
+=======================================*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    header .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    header .nav {
+        float: right;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .best-quality h1 {
+        margin-top: -120px;
+    }
+    .best-quality p {
+        font-size: 24px;
+    }
+    .best-quality a {
+        margin-top: 20px;
+    }
+    #hero-section::after{
+        bottom: -100px;
+    }
+    #table-section {
+        display: block;
+    }
+    #table-section .book-a-table {
+        width: 100%;
+    }
+    #table-section .book-a-table h1 {
+        font-size: 25px;
+    }
+
+    .table {
+        width: 80%;
+        margin: 0 10%;
+    }
+    .about-text {
+        width: 100%;
+        text-align: justify;
+        padding-top: 272px;
+        display: inline-table;
+        margin-left: 54px;
+    }
+    .about-text h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #about-section {
+        display: block;
+    }
+    .full {
+        width: 90%;
+        padding-left: 41px;
+    }
+    .about-video img {
+        margin-top: 65px;
+    }
+    .about-text h3 {
+        text-align: left;
+        margin-top: -220px;
+    }
+    .about-text {
+        width: 85%;
+        padding-top: 240px;
+        margin-left: 30px;
+    }
+    .about-text h1 {
+        font-size: 47px;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
+    .child {
+        width: 100%;
+        display: inline-block;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 10px;
+        line-height: 30px;
+    }
+    .child a {
+        font-size: 14px;
+    }
+    .child-footer {
+        width: 91%;
+        padding: 0;
+        margin-left: 14px;
+    }
+    .newsletter {
+        margin-bottom: 20px;
+    }
+}

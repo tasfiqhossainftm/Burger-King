@@ -35,6 +35,10 @@ header{
     margin-bottom: 190px;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 header .logo{
     float: left;
     width: 25%;
@@ -84,7 +88,6 @@ header .nav ul li:last-child a{
 .best-quality h1{
     font-size: 60px;
     line-height: 72px;
-    font-weight: #fff;
     color: #fff;
 }
 
@@ -237,4 +240,185 @@ table section
 .about-text p{
     color: #0a0a09;
     font-size: 17px;
+}
+
+/*=====================================
+menu section
+=======================================*/
+
+#menu-section{
+    width: 100%;
+    background: #f3f3f3;
+    padding: 50px 100px 30px 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.child{
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px #e2dbdb;
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+.child:last-child{
+    margin-right: 0;
+}
+
+.child h2{
+    font-size: 35px;
+    
+}
+
+.child p{
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.child h2{
+    font-size: 35px;
+}
+
+.child a{
+    text-decoration: none;
+    color: #fbaf32;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px ;
+    border: 1px solid none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.child a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+/*=====================================
+master chef section
+=======================================*/
+
+#chef-section{
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 10px;
+    margin-top: 60px;
+}
+
+#chef-section h3{
+    color: #719a0a;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#chef-section h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.child-chef{
+    display: inline-block;
+    box-shadow: 0 1px 1px 1px #f0ecec;
+    margin-right: 30px;
+    border-radius: 10px;
+    background: #fffdfd;
+    margin-top: 30px;
+}
+
+.child-chef img{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px 10px 0 0;
+}
+
+/*=====================================
+footer section
+=======================================*/
+#footer-section{
+    background: #ebe8e8;
+}
+.child-footer{
+    width: 23%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.address{
+    margin-left: 12%;
+    text-align: left;
+}
+
+.social-area ul{
+    list-style: none;
+    margin-left: -40px;
+    display: flex;
+    float: left;
+}
+
+.social-area ul li{
+    display: inline-block;
+    background: #fbaf32;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.social-area ul li a{
+    color: #fff;
+}
+
+.social-area ul li a i{
+    margin-top: 8px;
+}
+
+
+.links ul li{
+    list-style:square;
+    color: #fbaf32;
+}
+
+.links ul li a{
+}
+
+.newsletter{
+    width: 29%;
+    text-align: justify;
+}
+
+.newsletter .email input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter .submit input{
+    width: 130px;
+    height: 40px;
+    background: #fbaf32;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
+.newsletter .submit input:hover{
+    background: none;
+    color: #fbaf32;
+    transition-duration: 0.5s;
 }
